@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins",sans-serif;
+}
+
+
+
+.container{
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=872&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    z-index:2;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 20px;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding:0 10px;
+    font-size: larger;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid transparent;
+}
+.text::before{
+    content:"";
+    position:absolute;
+    height: 100%;
+    z-index:-1;
+    width:100%;
+    background:black;
+    top:0;
+    opacity: 0.7;
+}
+.text{
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+  
+
+
+}
+.text h2{
+    font-size:50px;
+}
+
+.text  p{
+    font-size: 40px;
+}
+
+.text a{
+   color:white;
+   background-color: orange;
+   padding:5px 5px;
+   margin:10px  auto;
+   border:0.5px solid black;
+   
+    
+}
+.text a:hover{
+    background-color: black;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid orange;
+}
+
+.navbar h2{
+    font-size: 30px;
+    color: orange;
+}
